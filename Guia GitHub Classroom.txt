@@ -1,0 +1,37 @@
+CRIANDO AS TURMAS
+
+1. Criar organização master
+2. Criar organização do semestre em específico
+3. Sempre conceda acesso às organizações ao github classroom: https://github.com/settings/connections/applications/64a051cf1598b9f0658f
+4. Criar um teams para os estudantes na organização da etapa 2.
+5. Garantir que a organização da etapa 2 tenha Permissões de Base configurada como "None".
+   Vá para Settings -> Member Privileges -> Base Permissions: None
+6. Adicione estudantes a organização do semestre. Faça isso criando uma tarefa inicial para que os alunos a aceitem. 
+   (Veja mais detalhes abaixo)
+7. Possivelmente os estudantes quando aceitarem a tarefa inicial entrarão como colaboradores externos. Seria ideal
+   transformá-los em membros da organização. Vá para a organização e então clique na aba "People" e depois na engrenagem 
+   no nome de cada estudante. Escolha transformar em membro.
+8. (Opcional) Na organização do semestre, crie um repositório para informações gerais: plano de ensino, roteiros etc.
+   Torne esse repositório private e vá para Settings -> Collaborators and teams. Então adicione a equipe "Alunos" 
+   para permitir o acesso ao repositório.
+
+ENVIANDO ASSINGNMENTS INDIVIDUAIS
+
+1. Crie um repositório do assignment na organização master. Ele pode incluir toda informação necessária para o
+   assingment como código exemplo, dados etc. Por exemplo: experimento-1-titulo-opcional. Tornar esse repositório
+   private deve impedir que um tenha acesso ao trabalho do outro.
+2. Crie um assignment individual. Escolha uma data de término. Selecione o repostitório criado no item 1 desta secção.
+   Divulgue o link do assignment para a turma em algum local que todos tenham acesso.
+   Obs.: Após selecionar o repositório, escolhi a opção "Source Improter" 
+
+AVALIANDO OS ASSIGNMENTS
+
+1. Para avaliar desse maneira, todos os alunos devem criar uma branch do master para fazer suas tarefas.
+2. Os alunos deveriam fazer suas alterações na branch.
+3. Quando eles acabarem, devem criar um pull request.
+4. Os instrutores adicionarão comentários neste pull request.
+
+
+OBSERVAÇÔES:
+- Aparentemente a tarefa com atributo public permite receber a etiqueta "Submmited"
+- 
